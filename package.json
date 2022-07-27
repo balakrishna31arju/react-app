@@ -30,10 +30,6 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md,ts}\"",
     "prepare": "husky install"
   },
-  "testMatch": [
-    "<rootDir>/src/**/*.(test).{js,jsx,ts,tsx}",
-    "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,ts,tsx}"
-  ],
   "eslintConfig": {
     "extends": [
       "react-app",
